@@ -11,10 +11,6 @@
     flex-direction: column;
     gap: 3.2rem;
   }
-    .box-title-image {
-      display: flex;
-      gap: 1.6rem;
-    }
     .box-video {
       position: relative;
       padding-bottom: 56.3%;

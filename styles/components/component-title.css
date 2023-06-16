@@ -1,11 +1,10 @@
 .component-title {
-  font-size: 4rem;
   font-weight: 700;
 }
 
 /* VARIATIONS */
 .component-title.-header {
-  font-size: 6rem;
+  font-size: 4.8rem;
   text-align: center;
   font-weight: 900;
   background-image: var(--bgImage-title);
@@ -20,4 +19,22 @@
   border-bottom: 1rem solid var(--midnightblue);
   padding: 1.6rem;
   margin: -1.6rem -1.6rem 0;
+}
+
+.component-title.-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.8rem;
+}
+
+@media screen and (min-width: 570px) {
+  .component-title.-header {
+    font-size: 6.4rem;
+  }
+
+  .component-title.-content {
+    font-size: 3.2rem;
+  }
 }

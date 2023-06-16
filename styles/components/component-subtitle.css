@@ -1,7 +1,13 @@
 .component-subtitle {
-  font-size: 3.5rem;
+  font-size: 2.4rem;
   font-weight: 600;
   text-indent: 1rem;
   line-height: 1.5;
   background-image: var(--bgImage-subtitle);
+}
+
+@media screen and (min-width: 570px) {
+  .component-subtitle {
+    font-size: 2.8rem;
+  }
 }
