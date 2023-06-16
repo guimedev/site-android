@@ -1,0 +1,6 @@
+.component-slogan {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--cerulean);
+}

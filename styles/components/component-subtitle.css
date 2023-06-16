@@ -1,0 +1,7 @@
+.component-subtitle {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-indent: 1rem;
+  line-height: 1.5;
+  background-image: var(--bgImage-subtitle);
+}

@@ -1,0 +1,22 @@
+.component-list {
+  font-size: 2rem;
+  padding: 1.6rem;
+  columns: 2;
+  line-height: 1.5;
+  
+}
+
+.component-list li {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--orange);
+}
+
+.component-list li abbr {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-weight: 600;
+  color: var(--white);
+  cursor: pointer;
+}
+

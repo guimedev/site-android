@@ -1,0 +1,38 @@
+.container-content {
+  max-width: 94rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  margin: 10rem auto;
+  padding: 1.6rem;
+}
+  .box-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+    .box-title-image {
+      display: flex;
+      gap: 1.6rem;
+    }
+    .box-video {
+      position: relative;
+      padding-bottom: 56.3%;
+    }
+      .box-video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+      }
+    .box-aside {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6rem;
+      border-top-left-radius: 1.6rem;
+      margin: 4rem 0;
+      padding: 1.6rem;
+      background-image: var(--bgImage-aside);
+      overflow: hidden;
+    }

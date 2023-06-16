@@ -1,0 +1,9 @@
+.component-para {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+/* VARIATIONS */
+.component-para.-footer {
+  text-align: center;
+}

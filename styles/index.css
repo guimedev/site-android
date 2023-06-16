@@ -1,0 +1,25 @@
+/* SETTINGS */
+@import url(./settings/font-size.css);
+@import url(./settings/colors.css);
+
+/* GENERIC */
+@import url(./generic/reset.css);
+
+/* BASE */
+@import url(./base/body.css);
+
+/* LAYOUT */
+@import url(./layout/container-header.css);
+@import url(./layout/container-content.css);
+@import url(./layout/container-footer.css);
+
+/* COMPONENTS */
+@import url(./components/component-action.css);
+@import url(./components/component-title.css);
+@import url(./components/component-slogan.css);
+@import url(./components/component-para.css);
+@import url(./components/component-strong.css);
+@import url(./components/component-subtitle.css);
+@import url(./components/component-image.css);
+@import url(./components/component-list.css);
+

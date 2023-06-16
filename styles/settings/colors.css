@@ -1,0 +1,18 @@
+:root {
+  --verydarkblue: #20282f;
+  --bluealmostblack: #10181f;
+  --midnightblue: #00080f;
+  --white: #efe8e0;
+  --green: #3ddc84;
+  --blue: #3d84dc;
+  --pink: #dc3d84;
+  --orange: #dc843d;
+  --purple: #843ddc;
+  --yellowgreen: #84dc3d;
+  
+  /* SPECIFIC COLORS */
+  --bgImage-aside: linear-gradient(45deg, var(--bluealmostblack), var(--verydarkblue), var(--bluealmostblack));
+  --bgImage-title: linear-gradient(45deg, var(--purple), var(--pink), var(--orange));
+  --bgImage-subtitle: linear-gradient(45deg, var(--blue), var(--purple), var(--pink));
+  --bgImage-action: linear-gradient(45deg, var(--blue), var(--purple), var(--pink), var(--orange), var(--green));
+}

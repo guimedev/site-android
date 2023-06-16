@@ -1,0 +1,10 @@
+.component-image {
+  width: 100%;
+}
+
+/* VARIATIONS */
+.component-image.-bugdroid {
+  display: block;
+  max-width: 30rem;
+  margin: auto;
+}

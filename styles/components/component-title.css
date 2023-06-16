@@ -1,0 +1,23 @@
+.component-title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+/* VARIATIONS */
+.component-title.-header {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 900;
+  background-image: var(--bgImage-title);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.component-title.-aside {
+  font-size: 2.4rem;
+  background-image: var(--bgImage-title);
+  border-bottom: 1rem solid var(--midnightblue);
+  padding: 1.6rem;
+  margin: -1.6rem -1.6rem 0;
+}

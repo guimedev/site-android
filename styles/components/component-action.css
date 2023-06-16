@@ -1,0 +1,35 @@
+.component-action {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--pink);
+}
+
+.component-action:hover {
+  text-decoration: underline;
+}
+
+/* VARIATIONS */
+.component-action.-header {
+  color: var(--white);
+  padding: 1rem;
+  background-image: var(--bgImage-action);
+  background-size: 1000%;
+}
+
+.component-action.-header:hover {
+  text-decoration: none;
+  animation-name: degrade-animation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes degrade-animation {
+  0% {
+    background-position-x: 0%;
+  }
+
+  100% {
+    background-position-x: 100%;
+  }
+}

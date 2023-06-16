@@ -1,0 +1,8 @@
+body {
+  max-width: 144rem;
+  margin: auto;
+  background-color: var(--midnightblue);
+  color: var(--white);
+}
+
+

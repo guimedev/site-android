@@ -1,0 +1,14 @@
+.component-strong {
+  font-weight: 600;
+  font-size: inherit;
+  color: var(--green);
+}
+
+/* VARIATIONS */
+.component-strong.-footer {
+  font-size: 2rem;
+  background-image: var(--bgImage-title);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
