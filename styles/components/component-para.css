@@ -1,6 +1,7 @@
 .component-para {
   line-height: 1.5;
   text-indent: 3rem;
+  text-align: justify;
 }
 
 /* VARIATIONS */
