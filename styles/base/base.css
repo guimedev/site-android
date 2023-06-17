@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--midnightblue);
+  max-width: 144rem;
+  margin: auto;
+  color: var(--white);
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 570px) {
+  body {
+    font-size: 1.8rem;
+  }
+}

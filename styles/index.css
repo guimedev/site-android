@@ -1,12 +1,11 @@
 /* SETTINGS */
-@import url(./settings/font-size.css);
 @import url(./settings/colors.css);
 
 /* GENERIC */
 @import url(./generic/reset.css);
 
 /* BASE */
-@import url(./base/body.css);
+@import url(./base/base.css);
 
 /* LAYOUT */
 @import url(./layout/container-header.css);

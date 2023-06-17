@@ -1,12 +1,7 @@
 .component-slogan {
+  font-size: 1.5em;
   text-align: center;
-  font-size: 2.4rem;
   font-weight: 500;
   color: var(--cerulean);
 }
 
-@media screen and (min-width: 570px) {
-  .component-slogan {
-    font-size: 3rem;
-  }
-}

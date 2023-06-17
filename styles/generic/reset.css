@@ -6,15 +6,8 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-size: 1.6rem;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   scroll-behavior: smooth;
 }
 
-@media screen and (min-width: 570px) {
-  *,
-  *:after,
-  *:before {
-    font-size: 2rem;
-  }
-}
+
