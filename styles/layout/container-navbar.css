@@ -1,0 +1,6 @@
+.container-navbar {
+  display: flex;
+  gap: 3.2rem;
+  background-color: var(--midnightblue);
+  padding: 1.6rem;
+}

@@ -8,14 +8,14 @@
 }
 
 /* VARIATIONS */
-.component-action.-header {
+.component-action.-navbar {
   color: var(--white);
   padding: 1rem;
   background-image: var(--bgImage-action);
   background-size: 1000%;
 }
 
-.component-action.-header:hover {
+.component-action.-navbar:hover {
   text-decoration: none;
   animation-name: degrade-animation;
   animation-duration: 6s;

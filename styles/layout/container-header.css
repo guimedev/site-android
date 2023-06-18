@@ -1,17 +1,8 @@
 .container-header {
   display: flex;
   flex-direction: column;
-  border-bottom: .5rem solid var(--white);
-  padding: 1.6rem;
-  
+  gap: 3.2rem;
+  /* border-bottom: .5rem solid var(--white); */
+  padding: 20rem 1.6rem;
+  background-color: var(--midnightblue);
 }
-  .box-navbar {
-    display: flex;
-    gap: 3.2rem;
-  }
-  .box-introduce {
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
-    padding: 20rem 0;
-  }

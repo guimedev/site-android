@@ -1,5 +1,5 @@
 .container-footer {
   padding: 1.6rem;
-  border-top: .5rem solid var(--white);
+  background-color: var(--midnightblue);
 }
 
