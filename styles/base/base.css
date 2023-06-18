@@ -2,6 +2,16 @@ html {
   font-size: 62.5%;
 }
 
+html::-webkit-scrollbar {
+  width: .9rem;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+  border: .1rem solid var(--bluealmostblack);
+  border-radius: 1rem;
+}
+
 body {
   display: flex;
   flex-direction: column;
